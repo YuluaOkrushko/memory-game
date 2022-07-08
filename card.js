@@ -17,7 +17,7 @@ class Card {
   }
 
   get coverPath() {
-    return "images/card-cover.png";
+    return "images/card-cover.jpg";
   }
 
   get element() {

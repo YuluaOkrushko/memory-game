@@ -3,16 +3,31 @@ body {
 }
 
 .card {
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 100px;
+    min-height: 100px;
     border: 1px solid gray;
     margin: 8px 8px 0 0;
     cursor: pointer;
     background-size: cover;
 }
+#startGame{
+    outline: none;
+    cursor: pointer;
+    font-family: fantasy;
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(40deg, rgba(227 132 220) 0%, rgba(247,180,213,1) 63%, rgba(255,255,255,0.9976365546218487) 100%);
+}
+#startGame:hover{
+    border: 1px solid gray;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(40deg, rgba(255,255,255,0.9976365546218487) 0%, rgba(247,180,213,1) 63%,rgba(227 132 220) 100%);
+}
 
 #board {
-    width: 805px;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,9 +35,10 @@ body {
 #controlPanel {
     display: flex;
     font-size: 20px;
+    align-items: center;
 }
 
 #scoreOutput {
     margin-left: 20px;
-    font-weight: bold;
+    font-family: fantasy;
 }
